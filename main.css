@@ -1,0 +1,64 @@
+*{
+    background:rgb(134, 102, 173);
+    padding: 0;
+    margin: 0;
+}
+.s-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center; 
+    font-size: 45px;
+    height: 40px;
+    width:20px;
+    background: rgb(66, 56, 80);
+    padding: 10px;
+    border-radius: 40px;
+}
+.stext{
+    background: none;
+    outline: none;
+    float: left;
+    border: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    transition: 0.4s;
+    width: 200px;
+}
+.serch-btn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    float: right;
+    width: 20px;
+    height: 40px;
+    transition: 0.4s;
+}
+.s-box:hover > .text{
+    width: 240px;
+    padding: 0 6px ;
+}
+.s-box:hover>.text {
+  background: white;
+}
+.s-box>i{
+    padding-right: 5px;
+    border-radius: 100%;
+    position: relative;
+    float: right;
+}
+@keyframes slide{
+from{
+width: 40px;
+}
+to{
+width: 500px;
+}
+}
+.s-box:hover{
+    animation: slide 2s 0s infinite;
+}

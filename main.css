@@ -114,21 +114,24 @@
 h1, h2{
     font-size:40px;
 }
-
-/*.cursor {
-    display: inline-block;
-    width: 2px;
-    height: 2em;
-     -Match the line height 
-    background-color: black;
-    margin-left: 2px;
-    vertical-align: bottom;
-     -Align with the text 
-    animation: blink 1s step-start infinite;
-}
-
-@keyframes blink {
-    50% {
-        background-color: transparent;
+@keyframes animation-re12 {
+    from {
+        left: 0px;
     }
+
+    to {
+        left:50vw;
+    }
+}
+h4{
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    left: 240px;
+    width: 160px;
+    height: 160px;
+    animation-name: animation-re12;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
 }

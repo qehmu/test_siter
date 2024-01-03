@@ -1,137 +1,29 @@
-*{
+*
+{
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
     padding: 0;
     margin: 0;
-    background-color: lightblue;
+    background-color:white;
 }
-@keyframes animation-re {from {bottom: 0px;}to {bottom: 270px;}}
-@keyframes animation-ree{from{bottom: 0px;}to{bottom: 500px;}}
-@keyframes animation-ree {from {bottom: 0px;}to {bottom: 500px;}}
-@keyframes animation-re2 {from {bottom: 0px;}to {bottom: 600px;}}
-@keyframes animation-re3 {from {bottom: 0px;}to {bottom: 750px;}}
-@keyframes animation-re4 {from {bottom: 0px;}to {bottom: 980px;}}
-@keyframes animation-re5 {from {bottom: 0px;}to {bottom: 920px;}}
-@keyframes animation-re6 {from {bottom: 0px;}to {bottom: 1250px;}}
-@keyframes animation-re7 {from {bottom: 0px;}to {bottom: 1250px;}}
-.same-block_5{
-    left:500px;
-    position: relative;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    background-color: blueviolet;
-    animation-name: animation-re5;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+.w1>a{
+    border: 5px;
+    background-color: black;
+    list-style: none;
 }
-.same-block_6{
-    left: 650px;
-    position: relative;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    background-color: blueviolet;
-    animation-name: animation-re6;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+.header{
+    width: 1440px;
+    display: flex;
+    padding-top: 104px;
+    padding-left: 133px;
+    padding-right: 133px;
+    padding-bottom: 168px;
 }
-.same-block_7{
-    left: 1000px;
-    position: relative;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    background-color: blueviolet;
-    animation-name: animation-re7;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-.block{
-    position: relative;
-}
-.same-block{
-    position: relative;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    background-color: blueviolet;
-    animation-name: animation-re;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-.same-block_2{
-    left: 140px;
-    position:relative;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    background-color:aquamarine;
-    animation-name:animation-ree ;
-    animation-duration: 3s;
-    animation-timing-function:linear;
-    animation-iteration-count: infinite;
-}
-.same-block_3 {
-    left: 230px;
-    position: relative;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    background-color:darkorange;
-    animation-name:animation-re2;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-.same-block_4 {
-    left: 365px;
-    position: relative;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    background-color:darkcyan;
-    animation-name: animation-re3;
-    animation-duration:3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-.same-block_5 {
-    left: 470px;
-    position: relative;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    background-color: red;
-    animation-name: animation-re4;
-    animation-duration: 3s;
-    animation-timing-function:ease-in;
-    animation-iteration-count:infinite;
-}
-
-h1, h2{
-    font-size:40px;
-}
-@keyframes animation-re12 {
-    from {
-        left: 0px;
-    }
-
-    to {
-        left:50vw;
-    }
-}
-h4{
-    font-size: larger;
-    text-align: center;
-    position: relative;
-    left: 240px;
-    width: 160px;
-    height: 160px;
-    animation-name: animation-re12;
-    animation-duration: 5s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
+.main{
+    width: 1440px;
+    display: flex;
+    padding-top: 104px;
+    padding-left: 133px;
+    padding-right: 133px;
+    padding-bottom: 168px;
 }

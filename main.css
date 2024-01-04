@@ -73,12 +73,53 @@
     display: grid;
     text-align: center;
 }
+
+
+@keyframes animka {
+    from{
+        line-height: 0px;
+    }
+    to{
+        line-height: 150px;
+    }
+}
 .intr{
-    margin-top: 109px;
+    animation-name:animka;
+    animation-delay: 0s;
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+    margin-top: 236px;
     font-size: 100px;
     text-align: center;
-    line-height: 157px;
+    line-height: 113px;
 }
 .ftr{
     text-align: center;
+}
+.buy2>a{
+    color:white;
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: rgb(29, 27, 27);
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+}
+.buy2>p{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 278px;
+    height: 82px;
+    background-color:#ffff;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+}
+.buy2{
+    width: 50%;
+    display: block;
 }
